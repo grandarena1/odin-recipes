@@ -5,30 +5,34 @@ body {
 
 #header {
     text-align: center;
-    text-decoration: underline;
-}
-
-.recipe-container {
-    display: flex;
-    text-align: center;
-    width: 100%;
-    height: auto;
-    justify-content: center;
 }
 
 .recipe-list {
-    display: inline-block;
-    background-color: rgb(217, 217, 217);
+    background-color: rgb(109, 109, 109);
     font-size: 24px;
     text-align: left;
-    padding: 10px 10px;
+    margin-bottom: 40px;
 }
 
 li {
-    margin: 10px 0;
-    list-style: none;
+    list-style: square;
+    padding: 10px 5px;
+}
+
+li a {
+    color: white;
 }
 
 a:hover {
     color: red;
+}
+
+h2 {
+    margin: 10px 0;
+    text-align: center;
+}
+
+p {
+    font-size: 24px;
+    text-align: center;
 }
